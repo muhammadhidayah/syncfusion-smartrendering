@@ -1,0 +1,84 @@
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-react-grids/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-layouts/styles/material.css";
+
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.control-pane .modal-dialog-target {
+  min-height: 350px;
+}
+.property-panel-table.table-width {
+  width: 100%;
+}
+.table-td {
+  width: 60%;
+}
+.dialog-td-font {
+  font-size: 13px;
+}
+.dlgbtn.dlgbtn-position {
+  position: absolute;
+}
+
+.splitter-content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#treeview {
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+#treeview.e-treeview .e-list-img {
+  width: 25px;
+  height: 25px;
+}
+#treeview.e-treeview .e-list-icon {
+  background-repeat: no-repeat;
+  background-image: url(https://ej2.syncfusion.com/react/demos/src/images/icons/file_icons.png);
+  height: 20px;
+}
+
+#treeview.e-treeview .e-list-icon.folder { background-position: -10px -552px }
+#treeview.e-treeview .e-list-icon.docx { background-position: -10px -20px }
+#treeview.e-treeview .e-list-icon.ppt { background-position: -10px -48px }
+#treeview.e-treeview .e-list-icon.pdf { background-position: -10px -104px }
+#treeview.e-treeview .e-list-icon.images { background-position: -10px -132px }
+#treeview.e-treeview .e-list-icon.zip { background-position: -10px -188px }
+#treeview.e-treeview .e-list-icon.audio { background-position: -10px -244px }
+#treeview.e-treeview .e-list-icon.video { background-position: -10px -272px }
+#treeview.e-treeview .e-list-icon.exe { background-position: -10px -412px }
